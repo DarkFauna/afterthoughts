@@ -89,6 +89,11 @@ form button:hover {
     margin-bottom: 20px;
   }
 
+  .logo img {
+    width: 10% !important;
+    height: 10% !important;
+  }
+
   nav {
     margin-top: 20px;
   }
