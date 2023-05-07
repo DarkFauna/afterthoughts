@@ -1,7 +1,17 @@
+/* Theme Colors */
+:root {
+  --color-primary: #19A7CE;
+  --color-secondary: #146C94;
+  --color-tertiary: #AFD3E2;
+  --color-bg: #F6F1F1;
+}
+
+/* General Styles -All */
 * {
   box-sizing: border-box;
 }
 
+/* General Styles - Body */
 body {
   margin: 0;
   text-align: center;
