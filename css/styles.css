@@ -116,7 +116,7 @@ form button:hover {
 
 .guide-section-one-image {
   flex: 0 0 200px;
-  margin-right: 50px;
+  margin-right: 200px;
 }
 
 .guide-section-one-image img {
@@ -149,7 +149,7 @@ form button:hover {
 
 .guide-section-two-image {
   flex: 0 0 200px;
-  margin-right: 50px
+  margin-right: 100px
 }
 
 .guide-section-two-image img {
