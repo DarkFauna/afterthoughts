@@ -20,7 +20,7 @@ body {
 }
 
 header {
-  background-color: #fff;
+  background-color: #F6F1F1;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -214,4 +214,66 @@ form button:hover {
     padding: 8px;
     margin: 3px;
   }
+}
+
+/* Footer styles */
+footer {
+  background-color: #146C94;
+  color: #F6F1F1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Sidebar styles */
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 200px;
+  background-color: #F6F1F1;
+  padding: 20px;
+}
+
+/* Main content styles */
+.main-content {
+  margin: 100px auto 0;
+  max-width: 800px;
+}
+
+/* Record your messages section */
+.record-messages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.record-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.record-buttons button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  background-color: #19A7CE;
+  color: #fff;
+  cursor: pointer;
+}
+
+.record-buttons button:hover {
+  background-color: #146C94;
+}
+
+.record-guidance {
+  flex-grow: 1;
+}
+
+/* Recent uploads section */
+.recent-uploads {
+  margin-bottom: 100px;
 }
