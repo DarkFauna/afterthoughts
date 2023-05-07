@@ -90,11 +90,6 @@ form button:hover {
 
   }
 
-  .logo img {
-    max-width: 10%;
-    max-height: 10%;
-  }
-
   nav {
     margin-top: 20px;
   }
@@ -118,4 +113,9 @@ form button:hover {
     padding: 8px;
     margin: 3px;
   }
+}
+
+.logo img {
+  width: 10%;
+  height: 10%;
 }
