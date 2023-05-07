@@ -87,11 +87,12 @@ form button:hover {
 
   .logo {
     margin-bottom: 20px;
+
   }
 
-  .logo img {
-    width: 10% !important;
-    height: 10% !important;
+  img {
+    width: 10%;
+    height: 10%;
   }
 
   nav {
