@@ -104,6 +104,41 @@ form button:hover {
   background-color: #3e8e41;
 }
 
+.guide-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #F6F1F1;
+  padding: 50px;
+}
+
+.guide-section-image {
+  flex: 0 0 200px;
+  margin-right: 50px;
+}
+
+.guide-section-image img {
+  width: 100%;
+  height: auto;
+}
+
+.guide-section-content {
+  flex: 1;
+}
+
+.guide-section-content h2 {
+  font-size: 2rem;
+  color: #19A7CE;
+  margin-bottom: 20px;
+}
+
+.guide-section-content p {
+  font-size: 1.2rem;
+  color: #146C94;
+}
+
+
 @media (max-width: 768px) {
   header {
     flex-direction: column;
