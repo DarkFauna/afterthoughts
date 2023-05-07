@@ -4,6 +4,7 @@
 
 body {
   margin: 0;
+  text-align: center;
   font-family: Arial, sans-serif;
   color: #444;
 }
@@ -139,7 +140,7 @@ form button:hover {
 }
 
 .container {
-  max-width: 1200px; /* adjust this to your desired width */
+  max-width: auto; /* adjust this to your desired width */
   margin: 0 auto; /* center horizontally */
 }
 
