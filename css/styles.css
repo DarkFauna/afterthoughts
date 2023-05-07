@@ -139,11 +139,6 @@ form button:hover {
   color: #146C94;
 }
 
-.container {
-  max-width: auto; /* adjust this to your desired width */
-  margin: 0 auto; /* center horizontally */
-}
-
 @media (max-width: 768px) {
   header {
     flex-direction: column;
