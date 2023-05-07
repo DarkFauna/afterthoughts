@@ -105,7 +105,7 @@ form button:hover {
   background-color: #3e8e41;
 }
 
-.guide-section {
+.guide-section-one {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -114,31 +114,61 @@ form button:hover {
   padding: 50px;
 }
 
-.guide-section-image {
+.guide-section-one-image {
   flex: 0 0 200px;
-  margin-right: 50px;
 }
 
-.guide-section-image img {
+.guide-section-one-image img {
   width: 100%;
   height: auto;
 }
 
-.guide-section-content {
+.guide-section-one-content {
   flex: 1;
 }
 
-.guide-section-content h2 {
+.guide-section-one-content h2 {
   font-size: 2rem;
   color: #19A7CE;
   margin-bottom: 20px;
 }
 
-.guide-section-content p {
+.guide-section-one-content p {
   font-size: 1.2rem;
   color: #146C94;
 }
+.guide-section-two {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #146C94;
+  padding: 50px;
+}
 
+.guide-section-two-image {
+  flex: 0 0 200px;
+}
+
+.guide-section-two-image img {
+  width: 100%;
+  height: auto;
+}
+
+.guide-section-two-content {
+  flex: 1;
+}
+
+.guide-section-two-content h2 {
+  font-size: 2rem;
+  color: #AFD3E2;
+  margin-bottom: 20px;
+}
+
+.guide-section-two-content p {
+  font-size: 1.2rem;
+  color: #F6F1F1;
+}
 @media (max-width: 768px) {
   header {
     flex-direction: column;
