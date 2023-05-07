@@ -84,6 +84,26 @@ form button:hover {
   height: 10%;
 }
 
+.create-account {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.create-account-btn {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.create-account-btn:hover {
+  background-color: #3e8e41;
+}
+
 @media (max-width: 768px) {
   header {
     flex-direction: column;
